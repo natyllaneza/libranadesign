@@ -102,6 +102,22 @@ h1, h2 {
   font-size: 50px;
   text-align: center; }
 
+li {
+  font-size: 1.125rem;
+  font-family: "Raleway", sans-serif; }
+
+/* ANIMACIONES */
+.animate__zoomIn {
+  animation-duration: 2s;
+  animation-delay: 2s; }
+
+/* MENÚ */
+#menu-nav .nav-link {
+  color: #06507b; }
+
+#menu-nav .nav-link:hover {
+  color: black; }
+
 /* WHATSAPP */
 .btn-wsp {
   position: fixed;
@@ -123,10 +139,30 @@ h1, h2 {
   color: #2d9f24;
   background-color: #f5f5f5; }
 
-/* ANIMACIONES */
-.animate__zoomIn {
-  animation-duration: 2s;
-  animation-delay: 2s; }
+/* GALERÍA */
+.button-vermas {
+  display: flex;
+  flex: 100%;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 4rem;
+  padding-top: 2rem; }
+
+.button-vermas a {
+  background-color: #F2F2F2;
+  color: black;
+  border: none;
+  border-radius: 1.25rem;
+  padding: 0.625rem 2.5rem;
+  text-decoration: none;
+  box-shadow: 0.313rem 0.625rem 1.25rem 0 rgba(0, 0, 0, 0.36); }
+
+.button-vermas :hover {
+  background: #06507b;
+  color: #ccdc4d; }
+
+.button-vermas :visited {
+  color: #13b4bd; }
 
 /* FORMULARIO */
 .boton {
