@@ -1,0 +1,40 @@
+@import './imports/variables';
+@import './imports/grid';
+
+
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto; 
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: tomato;
+}
+
+#galeria, #tienda {
+    background-color: $colorFondo1;
+}
+
+#sobreMi, #contacto {
+    background-color: $colorFondo2;
+}
+
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: $pixeles/2;
+    text-align: center;
+}
+
+/* ANIMACIONES */
+.animate__zoomIn {
+    animation-duration: 2s;
+    animation-delay: 2s; }
