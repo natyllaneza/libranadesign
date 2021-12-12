@@ -2,7 +2,6 @@
 @import './imports/grid';
 @import './imports/tienda';
 
-
 /* GENERAL */
 * {
     margin: 0;
@@ -32,6 +31,30 @@ h1, h2 {
     font-family: 'Dancing Script', cursive;
     font-size: $pixeles/2;
     text-align: center;
+}
+
+/* WHATSAPP */
+
+.btn-wsp {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #2d9f24;
+    color: $whitesmoke;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.btn-wsp:hover {
+    text-decoration: none;
+    color: #2d9f24;
+    background-color: $whitesmoke;
 }
 
 /* ANIMACIONES */
