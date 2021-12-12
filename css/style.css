@@ -48,6 +48,35 @@
   .galeria-img {
     grid-template-columns: repeat(4, 1fr); } }
 
+/* TIENDA */
+.store {
+  background-color: #13b4bd;
+  padding-top: 2rem;
+  padding-bottom: 3rem; }
+
+.card:hover {
+  transition: transform .2s;
+  transform: translateY(-10px); }
+
+.btn {
+  background: #06507b;
+  color: white;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: .5rem;
+  border-radius: 2rem;
+  box-shadow: 0.313rem 0.625rem 1.25rem 0 rgba(0, 0, 0, 0.36); }
+
+.btn:hover {
+  background-color: #ccdc4d;
+  color: black; }
+
+.card-title, .card-text {
+  text-align: center; }
+
 /* GENERAL */
 * {
   margin: 0;
@@ -60,8 +89,7 @@
   margin: 0 auto; }
 
 body {
-  font-family: 'Lato', sans-serif;
-  background-color: tomato; }
+  font-family: 'Lato', sans-serif; }
 
 #galeria, #tienda {
   background-color: #13b4bd; }
@@ -78,3 +106,17 @@ h1, h2 {
 .animate__zoomIn {
   animation-duration: 2s;
   animation-delay: 2s; }
+
+/* FORMULARIO */
+.boton {
+  background-color: #ccdc4d;
+  border: none;
+  color: white;
+  border-radius: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: black; }
+
+.boton:hover {
+  color: white;
+  background-color: #a6d6cd; }

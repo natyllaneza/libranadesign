@@ -1,0 +1,30 @@
+/* TIENDA */
+
+.store {
+    background-color: $colorFondo1;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.card:hover {
+    transition: transform .2s;
+    transform: translateY(-10px); }
+
+.btn {
+    background: #06507b;
+    color: white;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: .5rem;
+    border-radius: 2rem;
+    box-shadow: 0.313rem 0.625rem 1.25rem 0 rgba(0, 0, 0, 0.36); }
+
+.btn:hover {
+    background-color: #ccdc4d;
+    color: black; }
+
+.card-title, .card-text {
+    text-align: center; }
