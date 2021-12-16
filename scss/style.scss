@@ -1,13 +1,17 @@
-@import './imports/variables';
-@import './imports/grid';
-@import './imports/tienda';
-
 /* GENERAL */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
 }
+
+body {
+    overflow-x: hidden
+}
+
+@import './imports/variables';
+@import './imports/grid';
+@import './imports/tienda';
 
 .container {
     width: 100%;
