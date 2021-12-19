@@ -1,0 +1,82 @@
+.titulo404 {
+    font-family: 'Lato', sans-serif;
+}
+
+.body404 {
+    background: -webkit-repeating-linear-gradient(-45deg, #06507b, #13b4bd, #a6d6cd, #ccdc4d,#e8e9e7);
+    height: 100vh;
+    background-size: 100%;
+}
+
+.error-page {
+    position: absolute;
+    top: 10%;
+    left: 17%;
+    right: 17%;
+    bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $colorFondo2;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}
+
+.error-page .contenido {
+    max-width: 600px;
+    text-align: center;
+}
+
+.contenido h1 {
+    font-size: 18vw;
+    line-height: 1em;
+    position: relative;
+}
+
+.contenido h1:after {
+    position: absolute;
+    content: attr(data-text);
+    top: 0;
+    left: 0;
+    right: 0;
+    background: -webkit-repeating-linear-gradient(-45deg, #06507b, #13b4bd, #a6d6cd, #ccdc4d,#e8e9e7);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contenido h4 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #000;
+    max-width: 600px;
+    font-size: 2em;
+}
+
+.contenido p {
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenido .btns {
+    margin: 25px 0;
+    display: inline-flex;
+}
+
+.contenido .btns a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    border: 2px solid $colorFondo1;
+    color: #06507b;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.contenido .btns a:hover {
+    color: $colorFondo2;
+    background: $colorFondo1;
+}
