@@ -59,7 +59,6 @@
 
 .contenido .btns {
     margin: 25px 0;
-    display: inline-flex;
 }
 
 .contenido .btns a {
@@ -68,7 +67,6 @@
     text-decoration: none;
     border: 2px solid $colorFondo1;
     color: #06507b;
-    font-weight: 500;
     padding: 10px 25px;
     border-radius: 25px;
     text-transform: uppercase;
@@ -79,4 +77,31 @@
 .contenido .btns a:hover {
     color: $colorFondo2;
     background: $colorFondo1;
+}
+
+@media (min-width: 320px) {
+    .error-page {
+        left: 5%;
+        right: 5%;
+    }
+    .contenido h4 {
+        font-size: 1.5em;
+    }
+    .contenido p {
+        font-size: 0.8em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .contenido .btns {
+        margin: 25px 1px;
+    }
+    .contenido .btns a {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 576px) {
+    .contenido p {
+        font-size: 1.2em;
+    }
 }
